@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# React Starter Seed
+
+<p>
+  <img width="500" height="250" src="https://user-images.githubusercontent.com/13454400/230829695-e3e36aaf-8fc7-4a61-87ce-d352071a580e.png">
+</p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
