@@ -1,0 +1,9 @@
+{
+  "*.{ts,tsx}": [
+    "yarn lint",
+    "prettier --write"
+  ],
+  "*.{css,scss}": [
+    "prettier --write"
+  ]
+}

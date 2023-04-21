@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix src/"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix --max-warnings=0 src/",
+    "format": "prettier --write src/**/*.{ts,tsx,css}"
   },
   "browserslist": {
     "production": [
@@ -34,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.1",
+    "prettier": "2.8.7"
   }
 }
