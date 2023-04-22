@@ -1,3 +1,4 @@
+// This is the main component of the application
 import logo from './logo.svg';
 import './App.css';
 

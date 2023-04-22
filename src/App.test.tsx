@@ -1,4 +1,4 @@
-import React from 'react';
+// Tests for the App component
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
